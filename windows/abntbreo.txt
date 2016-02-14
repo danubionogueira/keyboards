@@ -1,0 +1,20 @@
+Teclado ABNT2 português Brasil normal, mais caracteres do esperanto.
+
+O layout é apenas uma versão estendida do ABNT2 padrão, sem qualquer perda, apenas adicionando os caracteres necessários para escrever esperanto, de uma forma bastante natural para quem digita em português (eu por exemplo removi o teclado padrão que veio instalado, e o novo layout substitui o antaigo com perfeição).
+Para digitar as letras com circunflexo, basta digitar o circunflexo e depois a consoante correspondente, exatamente como é feito com vogal e circunflexo em português. Para o caso do Ŭ, utiliza-se o til (~) no lugar do circunflexo (circunflexo e U já era utilizado para produzir o Û no layout padrão, enquanto que til e U produziria um til seguido de um U).
+
+
+Abaixo seguem as letras produzidas por cada sequência:
+
+^C = Ĉ
+^c = ĉ
+^G = Ĝ
+^g = ĝ
+^H = Ĥ
+^h = ĥ
+^J = Ĵ
+^j = ĵ
+^S = Ŝ
+^s = ŝ
+~U = Ŭ
+~u = ŭ

@@ -1,0 +1,5 @@
+Por ŝanĝi arĥiv-karakterojn de latina al cirila, mi kreis sed' (etendita regekso, tial -r) skripton nomata "laci.sed", kiu estas elvokita tiele:
+sed -rf laci.sed latina-teksto.txt > цирилаътэксто.ткст
+
+Por ŝanĝi arĥiv-karakterojn de cirila al latina, mi kreis sed' (etendita regekso, tial -r) skripton nomata "cila.sed", kiu estas elvokita tiele:
+sed -rf cila.sed цирилаътэксто.ткст > latina-teksto.txt
