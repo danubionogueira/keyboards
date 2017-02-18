@@ -1,0 +1,93 @@
+Teclado ABNT2 Russo, mais caracteres para escrever esperanto cirilizado.
+
+Adaptações do Russo para o teclado português brasileiro ABNT2:
+O layout não é baseado em nenhum layout russo, ao invés disso tenta-se adptar o som das letras russas ao som das letras portuguesas. Por esta razão, digitar um R produz uma letra semelhante à um P (Р), que é a letra russa que produz o som equivalente ao R português; digitar um P produz uma letra semelhante à um Pi grego (П); igualmente, digitar um S produz uma letra semelhante à um C (С), e um I parece um N invertido (И), um U parece um Y (У), e assim sucessivamente. Isto é devido ao fato do alfabeto russo ter sido desenvolvido à partir de uma versão antiga do alfabeto grego. Por este fato também, algumas letras se parecem muito com as do português na forma e no som (A, M, e T, são respectivamente А, М, e Т).
+Porém, não foi possível adaptar perfeitamente todas as letras russas às portuguesas, pois não existe uma correspondência perfeita entre elas. A primeira excessão é a letra Ц, que em russo soa como um TS (como em tss, tss, onomatopéia que se parece com o barulho de acionamento de um spray), esta letra foi atribuída à tecla C (esperantistas reconhecerão a semelhança das duas letras). A segunda excessão é a da letra Ч, que produz um som (Tch como em tchau) que não é comum em português e portanto não existe uma letra dedicada à este som, esta letra foi atribuída à tecla Ç.
+A letra Ж ao invés de ser atribuída ao J que seria o som português correspondente, foi atribuída ao Y (existe alguma semelhança entre as formas). No J foi atribuída a letra Й que em russo é uma espécie de И semivogal (em portugês o I semivogal não tem uma especificidade gráfica, para quem conhece esperanto, este som é o correspondente da letra J), e é utilizado também para criar as letras que produzem os sons que começam com um I semivogal (Ia, iu, ie, e io, repectivamente Я, Ю, Е, e Ё). Note que quando é digitado o J, o sistema permanece esperando para ver qual será a próxima letra digitada, caso seja uma vogal será inserido o caractere correspondente; caso seja qualquer outra letra, será inserido o Й mais o caractere da letra digitada. Poderia-se também ter invertido as teclas e atribuído-se o Ж ao J e Й ao Y, talvez fizesse até mais sentido para quem fala português mas não para quem fala esperanto, porém decidi manter mais próximo ao esperanto, pois este é um dos meus objetivos ao criar o layout. Quem achar interessante fazer essa inversão, pode ficar à vontade, pois o layout é disponibilizado com o arquivo fonte (.msklc) para o programa Microsoft Keyboard Layout Creator (versão 1.4), sob a licença copyleft Creative Commons 0 1.0 Universal, que permite a livre utilização, modificação, e redistrubuição, sem qualquer necessidade de autorização ou notificação (sequer é necessário me avisar que o layout está sendo utilizado, sob qualquer forma).
+Para facilitar a escrita de esperanto cirilizado, foram colocadas também letras que não pertencem ao alfabeto russo propriamente, mas à outros alfabetos cirílicos que possuam as pronúncias dos sons semelhantes. O primeiro caso foi o Џ, que no alfabeto sérvio tem uma pronúncia semelhante ao Ĝ do esperanto, e que foi atribuída ao Q. O segundo caso foi o Ў, que no alfabeto bielorrusso tem a função do Ŭ, e que foi atribuído ao W.
+O caso mais complicado, refere-se à pronúncia do H e Ĥ do esperanto. O russo possui apenas o som de Х, que em esperanto se aproxima mais de Ĥ do que de H. Decidi então flexibilizar a forma de digitar as letras para estes sons. Ao digitar apenas o H será produzida a letra Һ, que no alfabeto azerbaijano tem o som semelhante ao H do esperanto, porém utilizando a sequência de acento agudo (´) e H, é possível produzir também a letra Х russo, e utilizando-se o acento grave produz-se o Ҳ (note uma "perninha" ao final da letra Х), que no alfabeto abcásio tem um som ainda mais ríspido que do Х russo. Vejo então três possibilidades para esperantizar o H e o Ĥ, a primeira seria utilizar o Х como Ĥ e o Ҳ como H (Ҳ tadjiqui), a segunda seria o contrário da primeira (Ҳ abcásio), e a terceira seria utilizar o Х como Ĥ, e o Һ como H. Pessoalmente, prefiro esta última.
+Os caracteres russos funcionam bem em arquivos codificados em KOI8, porém os outros (Џ, Ў, Ҳ, e Һ), só funcionarão bem em arquivos codificados em unicode (UTF, ou UCS). De qualquer forma, quem desejar utilizar esperanto em arquivos de computador, terá que utilizar unicode, mas quem for escrever apenas em russo, poderá utilizar o KOI8.
+
+
+Abaixo seguem as letras produzidas por cada tecla e sequência:
+
+A = А
+a = а
+B = Б
+b = б
+C = Ц
+c = ц
+Ç = Ч
+ç = ч
+D = Д
+d = д
+E = Э
+e = э
+F = Ф
+f = ф
+G = Г
+g = г
+H = Һ
+h = һ
+I = И
+i = и
+J = Й
+j = й
+K = К
+k = к
+L = Л
+l = л
+M = М
+m = м
+N = Н
+n = н
+O = О
+o = о
+P = П
+p = п
+Q = Џ
+q = џ
+R = Р
+r = р
+S = С
+s = с
+T = Т
+t = Т
+U = У
+u = у
+V = В
+v = в
+W = Ў
+w = ў
+X = Ш
+x = ш
+Y = Ж
+y = ж
+Z = З
+z = з
+
+J(Aa) = Я
+j(Aa) = я
+J(Uu) = Ю
+j(Uu) = ю
+J(Ee) = Е
+j(Ee) = е
+J(Oo) = Ё
+j(Oo) = ё
+
+´J = Ь
+´j = Ь
+´H = Х
+´h = х
+`J = Ъ
+`j = ъ
+`I = Ы
+`i = ы
+`X = Щ
+`x = щ
+`H = Ҳ
+`h = ҳ
+~H = Ӏ
+~h = ӏ
+~J = Ј
+~j = ј
