@@ -1,0 +1,44 @@
+ptb2elan
+Teclado Brasileiro ABNT2 - Grego (Antigo)
+Danúbio Viana Nogueira (Brasil)
+Copyleft 2017 (Free for copy, modify, and redistribute)
+
+Α α a  alfa    a
+Β β b  beta    b
+Γ γ c  gama    g
+Δ δ d  delta   d
+Ε ε e  épsilon e
+Ζ ζ z  dzeta   z
+Η η ê  eta     h
+Θ θ t  teta    c
+Ι ι j  iota    i
+Κ κ k  capa    k
+Λ λ L  lambda  l
+Μ μ m  mü      m
+Ν ν n  nü      n
+Ξ ξ x  ksi     x
+Ο ο o  ômicron o
+Π π p  pi      p
+Ρ ρ r  rô      r
+Σ σ s  sigma   s
+Τ τ t  tau     t
+Υ υ u  upsilon u
+Φ φ f  fi      f
+Χ χ qu qui     q
+Ψ ψ ps psi     y
+Ω ω ô  ômega   w
+
+Ϊ ϊ ï          ¨I
+Ϋ ϋ ü          ¨u
+Ά ά á          ´a
+Ό ό ó          ´o
+Έ έ é          ´e
+Ύ ύ ú          ´u
+Ή ή ´h         ´h
+Ώ ώ ´w         ´w
+Ί ί í          ´i
+ς ς ç           ç
+
+ῶ ῶ ~w         ~w
+ΐ ΐ ì          `i
+ΰ ΰ ù          `u
